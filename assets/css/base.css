@@ -1,0 +1,158 @@
+:root {
+  --main-color: rgb(254, 209, 0);
+  --text-color: #333;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+  --border-color: rgba(0, 0, 0, 0.2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  box-sizing: inherit;
+  list-style: none;
+  font-size: 16rem;
+  line-height: 16rem;
+}
+html {
+  height: 3000px;
+  width: 100%;
+  font-size: 1px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+}
+a {
+  display: inline-block;
+}
+.grid-fullWidth {
+  min-width: 100%;
+}
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.grid-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* -------------------CSS shared----------------- */
+.verticalBulkhead {
+  border-right: 1.2px solid black;
+  display: block;
+}
+.horizontalBulkhead {
+  display: block;
+  border-top: 1px solid #000;
+}
+/* -------------------Animation-------------------- */
+@keyframes growth-from-arrow {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes growth-opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes gotoPrevious {
+  from {
+    right: 0;
+  }
+  to {
+    right: -100%;
+  }
+}
+@keyframes gotoNext {
+  from {
+    right: 0;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes gotoDisplay_Next {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 0;
+  }
+}
+@keyframes gotoDisplay_Previous {
+  from {
+    right: 100%;
+  }
+  to {
+    right: 0;
+  }
+}
+@keyframes goNextProcess {
+  from {
+    right: -500px;
+  }
+  to {
+    right: -0.2px;
+  }
+}
+@keyframes goBackProcess {
+  from {
+    right: -0.2px;
+  }
+  to {
+    right: -500px;
+  }
+}
+@keyframes upImg {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@keyframes goNextBigFrame1 {
+  from {
+    left: 0;
+  }
+  to {
+    left: -1180px;
+  }
+}
+@keyframes goNextBigFrame2 {
+  from {
+    left: -1180px;
+  }
+  to {
+    left: -2360px;
+  }
+}
+@keyframes goNextBigFrame3 {
+  from {
+    left: -2360;
+  }
+  to {
+    left: -3540px;
+  }
+}
+@keyframes goNextBigFrame4 {
+  from {
+    left: -3540px;
+  }
+  to {
+    left: 0;
+  }
+}

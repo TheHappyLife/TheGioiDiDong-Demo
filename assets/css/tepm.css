@@ -1,0 +1,122 @@
+:root {
+    --main-color: rgb(254, 209, 0);
+    --main-color-light: rgb(255, 255, 42);
+    --text-color: #333;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --border-color: rgba(143, 143, 143);
+  }
+  .app {
+      width: 100vw;
+  }
+  .banner-top-box {
+    background-color: var(--main-color-light);
+    width: 100vw;
+  }
+  .banner-top-link {
+    width: 1200px;
+    height: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .banner-top-img {
+    width: 100%;
+    height: 100%;
+  }
+  .header-box {
+    width: 100%;
+  }
+  .header-nav-top-box {
+    width: 100%;
+    /* background-color: black; */
+  }
+  .header-nav-top {
+      width: 1200px;
+  
+      /* margin-left: 50%;
+    transform: translateX(-50%);
+    height: 40px;
+    display: flex;
+    align-items: center; */
+  }
+  .header-nav-top * {
+    color: white;
+    font-size: 12rem;
+    font-weight: 400;
+  }
+  .header-logo-link {
+  }
+  .header-logo-img {
+    width: 142px;
+  }
+  .header-regionSelect-button {
+    font-size: 10rem;
+    cursor: pointer;
+    padding: 0 14px;
+  }
+  .header-regionSelect-button li:last-child {
+    font-weight: 600;
+    color: var(--main-color-light);
+  }
+  .header-regionSelect-button .icon {
+    color: var(--main-color-light);
+    position: relative;
+    top: 2px;
+  }
+  .header-search-box {
+    position: relative;
+    width: 224px;
+  }
+  .header-search-input {
+    padding: 8px 0 8px 14px;
+    width: 100%;
+    border-radius: 4px;
+    border-width: 1px;
+  }
+  .header-search-icon {
+    font-size: 20rem;
+    right: 6px;
+    color: #333;
+    top: 6.8px;
+    position: absolute;
+  }
+  .header-cart-box {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 3.6px 10px;
+  }
+  .header-cart-icon {
+    font-size: 22rem;
+  }
+  .header-historyOder-link {
+  }
+  .header-dilation {
+    flex: 1;
+  }
+  .header-24h-link {
+  }
+  .header-QandA-link {
+  }
+  .header-nav-bottom {
+  }
+  .header-nav-bottomItem-link {
+  }
+  .ti-mobile {
+  }
+  .ti-tablet {
+  }
+  .ti-headphone {
+  }
+  .ti-desktop {
+  }
+  .banner-top-box.grid-fullWidth {
+  }
+  .grid.banner-top-link {
+  }
+  .grid-fullWidth.header-box {
+  }
+  .header-nav-top.grid {
+  }
+  .header-nav-bottom.grid {
+  }
+  
